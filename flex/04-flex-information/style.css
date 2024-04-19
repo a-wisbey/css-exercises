@@ -17,13 +17,14 @@ img {
 
 .box1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
-
+/* TODO: Figure out how to wrap the text and stop the divs being up against each other */
 .barberry, .chilli, .pepper, .saffron {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* do not edit this footer */
