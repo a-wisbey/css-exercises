@@ -18,6 +18,12 @@ img {
 .box1 {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
 }
 
 /* do not edit this footer */
