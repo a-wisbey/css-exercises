@@ -13,6 +13,7 @@ img {
   font-weight: 900;
   display: inline-block;
   background-color: lightpink;
+  margin-bottom: 32px;
 }
 
 .box1 {
