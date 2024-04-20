@@ -45,6 +45,9 @@ body {
   display:flex;
 }
 
+.continue-cancel {
+  display: flex;
+}
 .close-button {
   background: #eee;
   border-radius: 50%;
