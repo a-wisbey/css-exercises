@@ -36,20 +36,26 @@ input {
   margin-bottom: 16px;
 }
 
+.header{
+  display: flex;
+  border: 2px solid blue; /* Add to visualise Flex items */
+}
+
 .footer {
 background-color: #eeeeee;
 display: flex;
 border: 2px solid red; /* Add to visualise Flex items */
+justify-content: space-between;
 }
 
 .left-links {
   display: flex;
   align-items: flex-start;
-  border: 2px solid red; /* Add to visualise Flex items */
+  border: 2px solid green; /* Add to visualise Flex items */
 }
 
 .right-links {
   display: flex;
   align-items: flex-end;
-  border: 2px solid red;/* Add to visualise Flex items */
+  border: 2px solid orange;/* Add to visualise Flex items */
 }
