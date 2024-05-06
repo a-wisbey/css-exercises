@@ -59,3 +59,14 @@ justify-content: space-between;
   align-items: flex-end;
   border: 2px solid orange;/* Add to visualise Flex items */
 }
+
+/* 
+-- tried adding this to seperate the header and footer left/right links, but no visible change when implemented --
+- NOTE; if removing this all together later, remember to remove the class "link-spaces" from all links in the html.
+
+.link-spaces {
+  display: flex;
+  justify-content: space-between;
+}
+
+*/
