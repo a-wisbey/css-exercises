@@ -46,6 +46,8 @@ input {
 .header{
   display: flex;
   border: 2px solid blue; /* Add to visualise Flex items */
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .footer {
@@ -57,13 +59,12 @@ justify-content: space-between;
 
 .left-links {
   display: flex;
-  align-items: flex-start;
   border: 2px solid green; /* Add to visualise Flex items */
+  /* gap: 10%; -- this works to create a gap, but save it for now and try using just flex to get the same result */ 
 }
 
 .right-links {
   display: flex;
-  align-items: flex-end;
   /* justify-content: space-between; - does nothing? */
   border: 2px solid orange;/* Add to visualise Flex items */
 }
