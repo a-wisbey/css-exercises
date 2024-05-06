@@ -38,4 +38,18 @@ input {
 
 .footer {
 background-color: #eeeeee;
+display: flex;
+border: 2px solid red; /* Add to visualise Flex items */
+}
+
+.left-links {
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid red; /* Add to visualise Flex items */
+}
+
+.right-links {
+  display: flex;
+  align-items: flex-end;
+  border: 2px solid red;/* Add to visualise Flex items */
 }
