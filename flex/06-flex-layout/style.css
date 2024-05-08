@@ -47,7 +47,6 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid black; /* Add to visualise Flex items */
   flex-direction: column;
   /*  flex-grow: 1; 
   flex-shrink: 0;
@@ -57,7 +56,6 @@ input {
 
 .header{
   display: flex;
-  border: 2px solid blue; /* Add to visualise Flex items */
   justify-content: space-between;
   padding: 5px;
 }
@@ -65,21 +63,22 @@ input {
 .footer {
 background-color: #eeeeee;
 display: flex;
-border: 2px solid red; /* Add to visualise Flex items */
 justify-content: space-between;
 }
 
 .left-links,
 .right-links {
   display: flex;
-  border: 2px solid green; /* Add to visualise Flex items */
   gap: 20px;
 }
 
 .left-links {
-  /*  justify-content: flex-start;  - doesn't do anything */
+  padding-left: 20px; /* -- not sure if there is a flex way of doing this? -- */
 }
 
+.right-links {
+  padding-right: 20px; /* -- not sure if there is a flex way of doing this? -- */
+}
 /* 
 -- tried adding this to seperate the header and footer left/right links, but no visible change when implemented --
 - NOTE; if removing this all together later, remember to remove the class "link-spaces" from all links in the html.
