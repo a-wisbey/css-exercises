@@ -32,6 +32,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -48,8 +49,10 @@ input {
   justify-content: center;
   border: 2px solid black; /* Add to visualise Flex items */
   flex-direction: column;
-  flex-grow: 1; 
+  /*  flex-grow: 1; 
   flex-shrink: 0;
+  flex-basis: auto; */
+  flex: 1 0 auto;
 }
 
 .header{
@@ -66,16 +69,15 @@ border: 2px solid red; /* Add to visualise Flex items */
 justify-content: space-between;
 }
 
-.left-links {
-  display: flex;
-  border: 2px solid green; /* Add to visualise Flex items */
-  /* gap: 10%; -- this works to create a gap, but save it for now and try using just flex to get the same result */ 
-}
-
+.left-links,
 .right-links {
   display: flex;
-  /* justify-content: space-between; - does nothing? */
-  border: 2px solid orange;/* Add to visualise Flex items */
+  border: 2px solid green; /* Add to visualise Flex items */
+  gap: 20px;
+}
+
+.left-links {
+  /*  justify-content: flex-start;  - doesn't do anything */
 }
 
 /* 
