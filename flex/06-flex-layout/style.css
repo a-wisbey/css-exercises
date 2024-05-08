@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+html, body {
+  height: 100vh;
+}
 body {
   height: 100vh;
   margin: 0;
@@ -42,8 +45,11 @@ input {
 .content {
   display: flex;
   align-items: center;
+  justify-content: center;
   border: 2px solid black; /* Add to visualise Flex items */
   flex-direction: column;
+  flex-grow: 1; 
+  flex-shrink: 0;
 }
 
 .header{
