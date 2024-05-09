@@ -10,17 +10,33 @@ body {
 }
 
 .middle {
-  
+  display: flex;
 }
 
 .sidebar {
-
+  width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+  flex-shrink: 0;
+   /* display: flex; -- don't think this is needed */
 }
 
 .six-boxes {
-
+  display: flex;
+  /* flex-wrap: wrap; -- didn't work as intended, flex items moved back to inline block style */ 
 }
 
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  
+}
+
+/* remove list styling */
+ul { 
+  list-style-type: none;
+}
 
 .header {
   height: 72px;
@@ -34,17 +50,9 @@ body {
   color: darkmagenta;
 }
 
-.sidebar {
-  width: 300px;
-  background: royalblue;
-  box-sizing: border-box;
-}
 
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
-}
+
+
 
 /* HINTS
 - You will need to change the flex-direction to push the footer down.
