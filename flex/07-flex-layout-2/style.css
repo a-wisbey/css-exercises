@@ -4,6 +4,24 @@ body {
   min-height: 100vh;
 }
 
+.content { /* do I need this, or could I just use Body rather than create another div? */
+  display: flex;
+  flex-direction: column;
+}
+
+.middle {
+  
+}
+
+.sidebar {
+
+}
+
+.six-boxes {
+
+}
+
+
 .header {
   height: 72px;
   background: darkmagenta;
