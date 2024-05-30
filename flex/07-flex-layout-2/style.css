@@ -40,6 +40,8 @@ body {
 /* remove list styling */
 ul { 
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* The sidebar links are size 24px, are white, and do not have the underline text decoration. */
@@ -56,7 +58,7 @@ a {
   color: white;
   font-size: 32px;
   font-weight: 900;
-  padding-left: 16px;
+  padding-left: 0 16px;
   display: flex;
   align-items: center;
 }
