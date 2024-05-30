@@ -7,7 +7,7 @@ body {
 }
 
 .content { /* do I need this, or could I just use Body rather than create another div? */
-
+  
 }
 
 .middle {
@@ -26,6 +26,7 @@ body {
 .six-boxes {
   display: flex;
   padding: 32px;
+
   /* flex-wrap: wrap; -- didn't work as intended, flex items moved back to inline block style */ 
 }
 
